@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_title",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please summarize the research paper titled \"{paper_title}\" with the following specifications:\nExplaination style: {style_input}\nExplannation length: {length_input}\n1. Mathematical Details:\n  - Include relevant mathematical equations if present in the paper\n  - Explain the mathematical concept in simple, intutitve code snippet where applicable.\n2. Analogies:\n    - Use relatable analogies to simplify complex ideas.\nIf certain information is not available in paper . respond with: \"Insufficient information available\" instead of guessing.\n\nEnsure the summary is clear, accurate and alligned with provided style and length\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
